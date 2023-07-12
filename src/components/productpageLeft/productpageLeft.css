@@ -1,0 +1,77 @@
+.Productpage-left {
+    width: 380px;
+    padding: 4rem 2rem;
+    background-color: rgb(206, 208, 246);
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.sort {
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.sort-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.sort-input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.sort-input label {
+    width: 100%;
+    flex: 0.8;
+}
+
+.sort-input input {
+    flex: 0.2;
+}
+
+.sort-input .range {
+    flex: 5.2;
+}
+
+.sort-size-list {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 8px;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.sort-size-list .sort-size {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.sort-size-list .sort-size:hover {
+    background-color: rgb(119, 119, 236);
+    color: white;
+}

@@ -1,0 +1,8 @@
+.product-page {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.product-page-right{
+    overflow-y: scroll;
+}
